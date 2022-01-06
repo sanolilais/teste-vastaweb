@@ -1,0 +1,14 @@
+:root {
+  --color-white: hsl(0, 0%, 100%); 
+  --color-black: hsl(0, 0%, 0%); 
+  --color-blackblue: hsl(207, 27%, 13%); 
+  --color-eclipsegray: hsl(0, 0%, 23%); 
+  --color-browngray: hsl(0, 0%, 33%);
+  --color-happyyellow: hsl(47, 87%, 61%);
+  --color-limegreen: hsl(118, 68%, 42%); 
+  --color-nightgray: hsl(0, 0%, 20%); 
+  --color-dimgray: hsl(0, 0%, 40%);
+  --color-eclipse: hsl(0, 0%, 21%);
+  --color-mysticblue: hsl(213, 25%, 46%);
+}
+
