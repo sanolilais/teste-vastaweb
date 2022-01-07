@@ -1,0 +1,106 @@
+@media screen and (max-width: 480px) {
+
+.navbar {   
+    display: flex;
+    align-items: center;
+}
+
+.bannerbox { 
+    display: flex;
+} 
+
+#banner {
+    background-image: url("../assets/images/mobile/BannerMobile.png");
+    height:calc((100vw) / 1.32);
+    z-index: -9999; 
+} 
+
+.banner-options {
+    display: flex;
+    flex-flow: column;
+    max-width: 325px;
+    align-items: center;
+} 
+
+.buttonheader { 
+        width: 100px;
+        height: 30px;
+        font-size: 9px;
+        margin-top: 84px;
+}
+.title {
+    font-size: 25px;
+}
+.subtitle {
+    margin-top: 10px;
+    font-size: 17px;
+
+} 
+.navbar { 
+    background-color: transparent;
+    width: 100vw;
+}
+#navbarcontent {
+    max-width: 325px;
+        justify-content: space-between;
+        align-items: center;
+}
+
+
+#menunav{
+    position: fixed;
+    left: -100%;
+    flex-direction: column;
+    background-color: var(--color-white);
+    width: 100%;
+    max-width: 100vw;
+    margin-top: 0;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);
+}
+
+#menunav.menu {
+    left: 0;
+    z-index: 5;
+
+} 
+
+.menuoption {
+    text-transform: uppercase;
+    background-color: var(--color-white);
+    width: 100vw;
+    max-width: 100vw;
+    height: 50px;
+    margin: 0;
+    padding-bottom: 40px;
+    z-index: 1;
+}
+ 
+.menuhamburger {
+    display: block;
+    cursor: pointer;
+    margin-right: 13px;
+}
+
+.menuhamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.menuhamburger.active .bar:nth-child(2) {
+    transform: translateY(-2px) rotate(-45deg);
+}
+
+.logo-vasta {
+    background-image: url(/assets/images/mobile/logo-vasta.png);
+    background-position: center;
+    background-size: 77px 23px;
+    width: 77px;
+    height: 23px;
+    margin: 0 25px 0 13px; 
+
+}
+} 
+
+
