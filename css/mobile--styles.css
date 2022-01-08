@@ -42,8 +42,8 @@
 }
 #navbarcontent {
     max-width: 325px;
-        justify-content: space-between;
-        align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -62,7 +62,7 @@
         0 10px 27px rgba(0, 0, 0, 0.05);
 }
 
-#menunav.menu {
+#menunav.active {
     left: 0;
     z-index: 5;
 
@@ -92,7 +92,7 @@
     transform: translateY(-2px) rotate(-45deg);
 }
 
-.logo-vasta {
+.logoimg {
     background-image: url(/assets/images/mobile/logo-vasta.png);
     background-position: center;
     background-size: 77px 23px;
@@ -101,6 +101,35 @@
     margin: 0 25px 0 13px; 
 
 }
+.container-about {
+        flex-flow: column;
+    }
+    .wrapper-text:nth-child(1),
+    .wrapper-text:nth-child(2) {
+        margin: 15px 10px;
+    }
+    .wrapper-image-about:nth-child(1){
+        margin: 0 auto;
+        background-image: url("../assets/images/mobile/image-mobile.png");
+        width: 325px;
+        height: 189px;
+        background-repeat: round;
+    }
+
+    .content-portfolio {
+        width: 100%;
+        grid-template-columns: 50% 50%;
+        gap: 25px;
+        max-width: 450px;
+    }
+
+    .testimonials__carousel {
+        width: 362px;
+    }
+
+    .testimonials__container {
+        width: 458px;
+    }
 } 
 
 

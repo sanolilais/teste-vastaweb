@@ -10,6 +10,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+  
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  
   <title>Vasta Web</title>
 </head>
 <body>
@@ -30,10 +34,10 @@
                     <a href="#" class="logoimg"></a>
                 </div>
                 <ul class="menu" id="menunav">
-                    <li class="menu menuoption"><a href="#about">Sobre</a></li>
-                    <li class="menu menuoption"><a href="#portfolio">Portfólio</a></li>
-                    <li class="menu menuoption"><a href="#testimonials">Depoimentos</a></li>
-                    <li class="menu menuoption"><a href="#contact">Contato</a></li>
+                    <li class="menu menuoption"><a href="#contentAbout" class="linkmenu">Sobre</a></li>
+                    <li class="menu menuoption"><a href="#contentPortfolio" class="linkmenu">Portfólio</a></li>
+                    <li class="menu menuoption"><a href="#contentTestimonials" class="linkmenu">Depoimentos</a></li>
+                    <li class="menu menuoption"><a href="#contact" class="linkmenu">Contato</a></li>
                 </ul>
                 <div class="menuhamburger">
                     <span class="linemenu"></span>
@@ -42,3 +46,172 @@
             </nav>
         </div>
     </header>
+    <section id="contentAbout" class="section-container">
+        <h2 class="section-subject">Sobre</h2>
+        <div class="container-about" id="container-about1">
+            <!--<img src="assets/images/image_lp_1.png" alt="image_lp_1.png">-->
+            <div class="wrapper-image-about" id="img-about1"></div>
+            <div class="wrapper-text" id="wrapper-text1">
+                <p class="section-text" id="text1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis sollicitudin velit, in
+                    lacinia dui
+                    pulvinar nec. Cras vehicula sed velit id sagittis. Aliquam vitae cursus nunc. Ut et magna
+                    pulvinar, varius
+                    odio ut, convallis diam. Etiam sapien turpis, rutrum at est at, lacinia fringilla enim. Morbi
+                    iaculis quam
+                    vel ante posuere, ac interdum leo congue. Donec feugiat augue non lorem feugiat vestibulum.
+                    Maecenas
+                    condimentum pretium massa. Nunc pharetra arcu lectus, ut volutpat dui tempor eu. In ac faucibus
+                    dui,
+                    ut suscipit risus. Praesent id hendrerit lacus, sed sagittis sapien. Fusce quis porttitor leo,
+                    sit amet
+                    dapibus tellus. Nullam fringilla varius ultrices.
+                </p>
+                <a class="btn btn-content" id="btn-about">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="container-about" id="container-about2">
+            <div class="wrapper-text" id="wrapper-text2">
+                <p class="section-text" id="text2">
+                    Cras nunc magna, facilisis et leo a, tempor iaculis lectus. Nullam eleifend eu metus nec
+                    interdum. Fusce at risus lorem
+                    vulputate facilisis eget id leo.Suspendisse mollis ante et ultricies ultrices. Interdum et
+                    malesuada fames ipsum primis
+                    in faucibus. Pellentesque bibendum pellentesque posuere. Cras consequat sed metus at egestas.
+                    Vestibulum lacus ante,
+                    porta nec erat vitae, tempus consectetur arcu. Curabitur id dui sollicitudin, vestibulum enim
+                    eget, venenatisturpis. Curab
+                    sed mattis felis, sed aliquet ante. Maecenas volutpat sapien quis efficitur sollicitudin. Nulla
+                    vehicula sodales ipsum, ut
+                    faucibus nibh porttitor et.Phasellus sit amet urna faucibus augue corper scelerisque erat
+                    tristique, mollis molestie metus
+                    scelerisque erat tristique.
+                </p>
+            </div>
+            <div class="wrapper-image-about" id="img-about2"></div>
+        </div>
+    </section>
+    <section id="contentPortfolio" class="section-container">
+        <h2 class="section-subject">PORTFOLIO</h2>
+        <div class="section-portfolio">
+            <div class="content-portfolio">
+                <div class="imagecontainer">
+                    <img class="img-portfolio" src="./assets/images/imageone-desktop.png" alt="Image 1">
+                </div>
+                <div class="imagecontainer">
+                    <img class="img-portfolio" src="./assets/images/imagetwo-desktop.png" alt="Image 2">
+                </div>
+                <div class="imagecontainer">
+                    <img class="img-portfolio" src="./assets/images/imagethree-desktop.png" alt="Image 3">
+                </div>
+                <div class="imagecontainer">
+                    <img class="img-portfolio" src="./assets/images/imagefour-desktop.png" alt="Image 4">
+                </div>
+                <div class="imagecontainer">
+                    <img class="img-portfolio" src="./assets/images/imagefive-desktop.png" alt="Image 5">
+                </div>
+                <div class="imagecontainer">
+                    <img class="img-portfolio" src="./assets/images/imagesix-desktop.png" alt="Image 6">
+                </div>
+            </div>    
+        </div>
+    
+    </section>
+    <section class="section-container" id="contentTestimonials">
+        <h2 class="section-subject">Depoimentos</h2>
+        <div class="testimonials__container">
+            <button class="chevron chevron-left" id="chevronLeft"></button>
+            <div class="testimonials__carousel">
+                <div class="testimonials__content" id="testimonialsContent">
+                    <div class="testimonial">
+                        <div class="testimonial__stars">
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                        </div>
+                        <div class="testimonial__content">
+                            <div class="testimonial__picture"></div>
+                            <div class="testimonial__text">
+                                <h4 class="testimonial__title">Lorem Ipsum doilor</h4>
+                                <p class="testimonial__body">
+                                    Vivamus pharetra, metus id tempor consequat, dolor tortor volutpat leo, et vulputate
+                                    orci ante sed tellus. Donec tellus
+                                    felis, pulvinar eget
+                                </p>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial__stars">
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                        </div>
+                        <div class="testimonial__content">
+                            <div class="testimonial__picture"></div>
+                            <div class="testimonial__text">
+                                <h4 class="testimonial__title">Lorem Ipsum doilor</h4>
+                                <p class="testimonial__body">
+                                    Vivamus pharetra, metus id tempor consequat, dolor tortor volutpat leo, et vulputate
+                                    orci ante sed tellus. Donec tellus
+                                    felis, pulvinar eget
+                                </p>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial__stars">
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                        </div>
+                        <div class="testimonial__content">
+                            <div class="testimonial__picture"></div>
+                            <div class="testimonial__text">
+                                <h4 class="testimonial__title">Lorem Ipsum doilor</h4>
+                                <p class="testimonial__body">
+                                    Vivamus pharetra, metus id tempor consequat, dolor tortor volutpat leo, et vulputate
+                                    orci ante sed tellus. Donec tellus
+                                    felis, pulvinar eget
+                                </p>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial__stars">
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                        </div>
+                        <div class="testimonial__content">
+                            <div class="testimonial__picture"></div>
+                            <div class="testimonial__text">
+                                <h4 class="testimonial__title">Lorem Ipsum doilor</h4>
+                                <p class="testimonial__body">
+                                    Vivamus pharetra, metus id tempor consequat, dolor tortor volutpat leo, et vulputate
+                                    orci ante sed tellus. Donec tellus
+                                    felis, pulvinar eget
+                                </p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <button class="chevron chevron-right" id="chevronRight"></button>
+        </div>
+    </section>
+    </div>
+    <script src="/js/index.js"></script>
+    </body>
