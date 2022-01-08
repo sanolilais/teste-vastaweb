@@ -130,6 +130,74 @@
     .testimonials__container {
         width: 458px;
     }
+    .section-contact-us{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
 } 
 
+#personaldata  {
+    width: 100vw;
+    flex-flow: column;
+    margin-bottom: 0;
+    align-items: center;
+} 
+#personaldata input{
+    margin: 0 0 8px 0;
+    width: 254px;
+    height: 28px;
+} 
+#commondata {
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#commondata input{
+    margin-left: 0;
+    margin-bottom: 8px;
+    width: 254px;
+}
+#input-tel{
+    height: 28px;
+}
+#input-message{
+    width: 243px;
+    padding-right: 15px;
 
+} #infoaboutdata{
+    text-align: center;
+    width: 100vw;
+    margin-top: 10px;
+    margin-left: 0;
+} 
+
+#btn-send{
+    margin-top: 14px;
+    width: 275px;
+    height: 34px; 
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 790px;
+} 
+
+.portfolio-images {
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    row-gap: 22px;
+}
+
+.footer-sub-section {
+    height: 450px;
+}
+
+#portfolio-links {
+    display: flex;
+    width: fit-content;
+    margin: 30px auto;
+}
+
+} 

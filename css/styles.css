@@ -380,7 +380,8 @@
 #info a{
     color:var(--link);
 }
-footer {
+
+.footer {
     width: 100vw;
     height: 381px;
     margin-top: 50px;
@@ -475,9 +476,10 @@ footer {
 }
 
 .portfolio-images {
-display: flex;
-gap: 20px;
-
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px;
+    column-gap: 22px;
 }
 #menus-footer{
     display: flex;
