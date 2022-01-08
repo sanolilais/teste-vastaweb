@@ -295,3 +295,213 @@
     line-height: initial;
     color: var(--color-blackblue);
 }
+.section-contact-us{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+}
+
+#personaldata{
+    display:flex;
+    margin: 0 auto 30px auto;
+  }
+
+.basicdata {
+    width: 254px;
+    height: 39px;
+    font-size: 15px;
+    font-family: Roboto;
+    color: var(--color-blackblue);
+    padding-left: 15px;
+}
+
+.basicdata::placeholder{
+    color: var(--color-blackblue);
+    opacity: 1;
+    font-size: 15px;
+    font-family: Roboto;
+}
+#input-lastname, #input-email {
+    margin-left: 36px;
+}
+#commondata {
+    margin: 0 auto 30px auto;
+    display: inline-grid;
+    grid-template-rows: 75px 45px;
+    grid-template-columns: 454px 258px 186px;
+}
+.message {
+    width: 433px;
+    height: 104px;
+    padding-top: 12px;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    resize: none;
+}
+
+.telephone {
+    width: 393px;
+    margin-left: 30px;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+.button-submit {
+    margin-top: 0;
+    text-decoration: none;
+    background-color: var(--color-limegreen);
+    border: 1px solid var(--color-limegreen);
+    width: 186px;
+    height: 45px;
+}
+#btn-send {
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    grid-column-start: 3;
+    grid-column-end: span 1;
+}
+.button-submit:hover {
+    color: var(--color-limegreen);
+    background-color: var(--color-white);
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+#infoaboutdata{
+    margin-left: 30px;
+    font-size: 10px;
+    width: 158px;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+}
+#info a{
+    color:var(--link);
+}
+footer {
+    width: 100vw;
+    height: 381px;
+    margin-top: 50px;
+    background-color: var(--color-nightgray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    color: var(--color-blackblue)
+}
+
+.footer-sub-section {
+    font-family: Roboto;
+    height: 321px;
+    border: 3px solid var(--color-white);
+    display: flex;
+    flex-flow: column;
+}
+#newsletter {
+    width: 540px;    
+    border-right: 1px solid var(--color-white);
+}
+#info-menu {
+    width: 596px;
+    border-left: 1px solid var(--color-white);
+}
+.footer-title{
+    margin-top: 23px;
+    font: 19px Roboto;
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    height: 14px;
+}
+.menu-title{
+    text-align:left;
+    margin-bottom: 29px;
+}
+.sub{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 19px;
+    height: 18px;
+}
+#formnewsletter {
+    margin: 30px auto;
+    display: flex;
+}
+#input-newsletter-email {
+    width: 294px;
+    height: 39px;
+    padding-left: 12px;
+    max-height: 45px;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+#portfolio-links {
+    display: grid;
+    margin: 19px 0 0 19px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px;
+    column-gap: 22px;
+}
+.link-wrapper {
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 83px 17px;
+}
+
+.portfolio-links{
+    display: block;
+    width: 100px;
+    height: 17px;
+    background-color: var(--color-browngray);
+    opacity: 0.8;
+    color: var(--color-white);
+    font: 13px Roboto;
+    text-align: center;
+    text-transform: uppercase;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+}
+.portfolio-links:hover{
+    background-color: var(--color-white);
+    color: var(--carbon-light);
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.portfolio-images {
+display: flex;
+gap: 20px;
+
+}
+#menus-footer{
+    display: flex;
+}
+#menufooter-map{ 
+    margin-left: 40px;
+    margin-right: 120px;
+}
+#menu-about-us{
+    margin-left: 121px;
+}
+.footermenus-options{
+    color: var(--color-white);
+    text-transform: capitalize;
+    font: 14px Roboto;
+    margin: 10px 0 10px 0;
+}
+#footer-imglogo {
+    display: flex;
+    margin-top: 53px;
+    justify-content: center;
+}
+#footer-imglogo a:hover{
+    opacity: 0.7;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
